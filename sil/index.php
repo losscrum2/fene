@@ -17,6 +17,5 @@
 
     $interfaz->setStrCentro($retval);
     echo $interfaz->getStrInterfaz();
-    
 ?>
 <?php include('./caching/cache.end.php'); ?>

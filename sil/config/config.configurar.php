@@ -1,7 +1,7 @@
 ﻿<?php        
    define( "NAME", $_SESSION["nombresistema"] );     
 	define( "HOST_NAME", $_SERVER['HTTP_HOST'] );
-	define( "DOC_ROOT", $_SERVER['DOCUMENT_ROOT'] ."/sil/" );
+	define( "DOC_ROOT", $_SERVER['DOCUMENT_ROOT'] ."/fene/sil/" );
 	define( "HOST", "http://" . HOST_NAME ."/" );
    //dire imagenes
    define( "IMAGENES_PATH", HOST .NAME."/imagenes/" );
